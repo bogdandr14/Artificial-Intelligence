@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1589138593 source:c:\users\relius\desktop\assignment\main.cpp
+	<time.h>
+	"AStar.h"
+	"generator.h"
+
+1589139480 source:c:\users\relius\desktop\assignment\astar.cpp
+	"AStar.h"
+
+1588876511 c:\users\relius\desktop\assignment\astar.h
+	<fstream>
+	<math.h>
+	<float.h>
+	<algorithm>
+	<map>
+	<set>
+	<stack>
+	<iomanip>
+	<tuple>
+
+1589109500 c:\users\relius\desktop\assignment\generator.h
+	<fstream>
+
+1589138154 source:c:\users\relius\desktop\assignment\generator.cpp
+	"generator.h"
+
+1589139480 source:e:\facultate\2.2\inteligenta artificiala\cursuri\code\astar.cpp
+	"AStar.h"
+
+1588876511 e:\facultate\2.2\inteligenta artificiala\cursuri\code\astar.h
+	<fstream>
+	<math.h>
+	<float.h>
+	<algorithm>
+	<map>
+	<set>
+	<stack>
+	<iomanip>
+	<tuple>
+
+1589138154 source:e:\facultate\2.2\inteligenta artificiala\cursuri\code\generator.cpp
+	"generator.h"
+
+1589109500 e:\facultate\2.2\inteligenta artificiala\cursuri\code\generator.h
+	<fstream>
+
+1589292184 source:e:\facultate\2.2\inteligenta artificiala\cursuri\code\main.cpp
+	<time.h>
+	"AStar.h"
+	"generator.h"
+

@@ -1,0 +1,22 @@
+mortal(X) :- man(X).
+man(socrates).
+killer(butch).
+married(mia, marsellus).
+dead(zed).
+kills(marselus, X) :- gives_flower(X, mia).
+loves(mia,X) :- dancer(X), good(X).
+eats(jules,X) :- nutritious(X); tasty(X).
+child(cristi, andrei).
+child(elena, andrei).
+child(ana, elena).
+child(george, ana).
+child(adriana, cristi).
+child(marius, cristi).
+child(ovidiu, cristi).
+parent(X):- child(Y, X), (son(Y); daughter(Y)).
+father(X):- parent(X), man(X).
+pother(X):- parent(X), woman(X).
+son(X):- child(X,Y), man(X), parent(Y).
+daughter(X):-child(X,Y), woman(X), parent(Y).
+sister(X, Z):- child(X, Y), woman(X), child(Z, Y).
+brother(X, Z):- child(X, Y), man(X), child(Z, Y).
